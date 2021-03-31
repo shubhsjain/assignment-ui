@@ -1,0 +1,294 @@
+body {
+  /* margin-left: 70px; */
+  /* margin-right: 70px; */
+  margin-top: 0;
+  position: static;
+}
+
+.body-upper {
+  height: 700px;
+}
+.head {
+  height: 100px;
+  display: inline;
+}
+
+.square {
+  height: 176px;
+  width: 165px;
+  background-color: rgb(240, 239, 239);
+  border-bottom-right-radius: 40px;
+}
+.logo {
+  text-align: center;
+  padding-top: 40%;
+  padding-bottom: 50%;
+  font-size: 25;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#contact {
+  float: right;
+  background-color: white;
+  border-radius: 30px;
+  border-color: black;
+  color: black;
+  margin-top: 60px;
+  font-size: 20px;
+  padding: 10 20 10 20;
+}
+#contact:hover {
+  color: blue;
+  cursor: pointer;
+  border-color: blue;
+}
+
+#lang {
+  float: right;
+  background-color: white;
+  color: black;
+  border: none;
+  margin-top: 75px;
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+h5 {
+  float: right;
+  background-color: white;
+  border-radius: 30px;
+  border-color: blue;
+  color: rgb(155, 155, 155);
+  margin-right: 10px;
+  margin-top: 76px;
+  margin-left: 330px;
+  font-size: 15px;
+  font-weight: 1000;
+}
+
+h5 a {
+  margin-left: 3px;
+  color: black;
+}
+
+.nav a {
+  float: right;
+  text-decoration: none;
+  text-align: center;
+  margin: 25px;
+  margin-top: 75px;
+  margin-right: 18px;
+  font-size: 19px;
+  color: black;
+  font-family: "Popping Regular", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+a:hover {
+  color: blue;
+}
+
+#img1 {
+  height: 270px;
+  float: right;
+  padding-top: 0px;
+}
+.digital {
+  font-size: 50px;
+  margin-left: 200px;
+  padding-top: 30px;
+  font-family: "Popping Regular", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#aaa {
+  font-size: 20px;
+  color: grey;
+  margin-left: 200px;
+  font-weight: 500;
+  font-family: "Popping Regular", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#img3 {
+  height: 400px;
+  float: right;
+  margin-right: 0;
+}
+
+#img2 {
+  height: 300px;
+  margin-left: 680px;
+  margin-top: -260px;
+}
+#demo {
+  padding-left: 20px;
+  padding-top: 159px;
+  color: rgb(79, 79, 204);
+}
+
+.play {
+  float: left;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.body-med {
+  height: 1200px;
+}
+.seo {
+  text-align: center;
+  font-size: 70px;
+}
+
+.one {
+  margin-left: 170px;
+}
+
+.two {
+  margin-left: 30px;
+}
+.three {
+  margin-left: 30px;
+}
+.four {
+  margin-left: 30px;
+}
+
+.top {
+  position: absolute;
+  left: 220px;
+  top: 1150px;
+  color: white;
+}
+
+.oliv {
+  position: absolute;
+  left: 530px;
+  top: 1150px;
+  color: white;
+}
+
+.light-blue {
+  position: absolute;
+  left: 840px;
+  top: 730px;
+  color: white;
+}
+
+.light-brown {
+  position: absolute;
+  left: 1140px;
+  top: 1150px;
+  color: white;
+}
+.lower-body {
+  padding-bottom: 70px;
+}
+.lower-body a {
+  margin: 25px;
+  color: grey;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.lower-body a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#all {
+  margin-left: 400px;
+  padding-top: 600px;
+}
+
+#all1-0 {
+  padding-top: 4px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#card {
+  width: 300px;
+  background-color: rgb(248, 243, 243);
+  float: left;
+  height: 210px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 5px;
+  margin: 60px;
+}
+
+/* ALL CARD */
+
+#allcard {
+  display: block;
+}
+
+#allcard.show {
+  display: block;
+}
+
+/* WEB CARD */
+
+#webcard {
+  display: none;
+}
+
+#webcard.show {
+  display: block;
+}
+
+#webcard2 {
+  display: none;
+}
+
+#webcard2.show {
+  display: block;
+  transition: 2s left;
+}
+
+/*  RE CARD */
+
+#recard {
+  display: none;
+}
+
+#recard.show {
+  display: block;
+}
+
+#recard2 {
+  display: none;
+}
+
+#recard2.show {
+  display: block;
+  transition: 2s left;
+}
+/* VPS CARD */
+
+#vscard {
+  display: none;
+}
+
+#vscard.show {
+  display: block;
+}
+
+#about {
+  color: black;
+}
+
+#about:hover {
+  color: blue;
+}
+
+#learn {
+  color: black;
+  margin-left: 1000px;
+  margin-top: -50px;
+}
+
+#learn:hover {
+  color: blue;
+  border-color: blue;
+}
